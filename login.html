@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilentSpeak-Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="main">
+        <h1>SilentSpeak</h1>
+        <h2>Enter your login credentials</h2>
+        <form action="login.php" method="POST">
+            <label for="first">
+                  Username:
+              </label>
+            <input type="text"
+                   id="first"
+                   name="first"
+                   placeholder="Enter your Username" required>
+ 
+            <label for="password">
+                  Password:
+              </label>
+            <input type="password"
+                   id="password"
+                   name="password"
+                   placeholder="Enter your Password" required>
+ 
+            <div class="wrap">
+                <button type="submit"
+                        onclick="solve()"><a href="home1.html">
+                            Submit
+                        </a>
+                </button>
+            </div>
+        </form>
+        <p>Not registered? 
+              <a href="signup.html"
+               style="text-decoration: none;">
+                Create an account
+            </a>
+            <a class="close" href="home1.html">
+                <i style="font-size:24px" class="fa"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></i></a>
+            
+        </p>
+    </div>
+</body>
+</html>

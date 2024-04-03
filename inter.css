@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom right,
+      #5B7FFF, #33CCFC);
+}
+
+nav img {
+  height: 22px;
+  width: 70px;
+
+}
+
+.navbar {
+  align-items: center;
+}
+
+.header {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  font-size: x-large;
+  padding: 10px 30px;
+  font-family: roboto, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  font-family: roboto, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.items-mater {
+  font-weight: bold;
+}
+
+.is-search-input {
+  height: 7vh;
+  width: 30vw;
+  padding-left: 10px;
+  padding-right: 0;
+  margin-right: 0px;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid blue;
+}
+
+.is-search-submit {
+  border-radius: 0 20px 20px 0;
+  height: 7vh;
+  padding-left: 0;
+  width: 5vw;
+  margin-left: 0;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.quiz {
+  margin-left: 400px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
+}
+
+.quiz:hover {
+  background-color: #cacaca;
+}
+
+iframe {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+
+#imp-link {
+  background-image: linear-gradient(to bottom right,
+      #5B7FFF, #33CCFC);
+  color: white;
+  overflow: auto;
+}
+
+.div33 {
+  width: 33.33%;
+  float: left;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+
+.div33 h3 {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+}
+
+
+.footer-links,
+#copyright li {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer-links li {
+  padding-bottom: 8px;
+}
+
+.footer-links li a,
+#copyright li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links li a:hover,
+#copyright li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#div33-2 {
+  padding-left: 120px;
+}
+
+#div33-1 {
+  padding-left: 0px;
+}
+
+#div33-1 p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* cpoyright */
+#copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(25, 84, 100);
+  color: whitesmoke;
+  padding: 0px;
+  font-size: 16px;
+}

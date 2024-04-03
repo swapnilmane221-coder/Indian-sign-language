@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilentSpeak-Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="main">
+        <h1>SilentSpeak</h1>
+        <h2>Create Account</h2>
+        <form action="signup.php" method="POST">
+            <label for="name">
+                Name:
+            </label>
+          <input type="text"
+                 id="name"
+                 name="name"
+                 placeholder="Enter your Name" required>
+
+            <label for="first">
+                  Username:
+              </label>
+            <input type="text"
+                   id="username"
+                   name="username"
+                   placeholder="Enter your Username" required>
+            
+                   <label for="email">
+                    Email:
+                </label>
+              <input type="text"
+                     id="emailid"
+                     name="emailid"
+                     placeholder="Enter your Email" required>
+
+
+            <label for="password">
+                  Password:
+              </label>
+            <input type="password"
+                   id="password"
+                   name="password"
+                   placeholder="Enter your Password" required>
+
+            <label for="confirm">
+                    Confirm Password:
+                </label>
+            <input type="text"
+                     id="confirm"
+                     name="confirm"
+                     placeholder="Confirm your Password" required>
+ 
+            <div class="wrap">
+                <button type="submit" 
+                        onclick="solve()" 
+                        onclick="location.href='login.html'">
+                    Submit
+                </button>
+            </div>
+        </form>
+          <a class="close" href="home1.html">
+              <i style="font-size:24px" class="fa"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></i></a>
+          
+    </div>
+</body>
+</html>
